@@ -5,7 +5,7 @@ import '@pnotify/core/dist/PNotify.css';
 import cardMarkup from '../templates/card.hbs';
 import ImageApiService from './apiService';
 import { onGalleryElClick } from './modal';
-import LoadMoreBtn from './load-more-btn';
+import LoadMoreBtn from './load-more';
 
 const refs = {
   searchForm: document.querySelector('#search-form'),
